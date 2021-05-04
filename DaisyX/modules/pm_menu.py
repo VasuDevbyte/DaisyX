@@ -41,16 +41,9 @@ def help_markup(modules):
 
 
 STICKERS = (
-    "CAACAgUAAxkBAAJOGmBeli95P073FKVkgc4esfKE4UlXAAIOAgACyavAVkbLMIidWYdyHgQ",
-    "CAACAgUAAxkBAAJOG2BeljABwlCfwzHT1gzyiciBri6_AAIsAgACXBPBVgpGQRz-1qmlHgQ",
-    "CAACAgUAAxkBAAJOHGBeljOJ35CQNnkpnVcgRoHuJX6DAAL3AQACN8TBVm1PIART01cWHgQ",
-    "CAACAgUAAxkBAAJOHWBeljXW9QzYQ51gpCjHZHCF5Ui6AAJ7AgAC3zDBVo2xenp7JYhAHgQ",
-    "CAACAgUAAxkBAAJOHmBeljjU0_FT_QpdUUJBqVUC0nfJAAKYAgACJ_jBVvntHY_8WF27HgQ",
-    "CAACAgUAAxkBAAJOH2BeljrV68mPLu8_6n4edT20Q3IQAAJ9AgACq3LBVmLuZuNPlvkfHgQ",
-    "CAACAgUAAxkBAAJOIGBeljttuniUPykRtzkSZj3SRwKJAAI7AgACNm_BVp8TCkE6ZqCoHgQ",
-    "CAACAgUAAxkBAAJOIWBelj-P_2vtVqtkF2OMlVN3M0N4AAK3AQACSm3BVkXF2voraS2tHgQ",
-    "CAACAgUAAxkBAAJOImBelkJxUBm2rL1iPfMZfk-_9DaOAALrAgAC4T3BVniopXQVsZ4KHgQ",
-    "CAACAgUAAxkBAAJOI2BelkMO0AX_wtAc7hUZz1NixuMlAAKEAwACY4TAViVuNLTBmmkgHgQ",
+    "CAACAgUAAxkBAAFAhAxgkR1cWOyYYH8scc7uqwsWUoRrCAACtgIAAvGLiVTjFqonSTqr7B8E",
+    "CAACAgUAAxkBAAFAhAxgkR1cWOyYYH8scc7uqwsWUoRrCAACtgIAAvGLiVTjFqonSTqr7B8E",
+
 )
 
 
@@ -75,21 +68,21 @@ async def get_start_func(message, strings, edit=False):
     buttons = InlineKeyboardMarkup()
     buttons.add(InlineKeyboardButton(strings["btn_help"], callback_data="get_help"))
     buttons.add(
-        InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
+        InlineKeyboardButton(strings["btn_lang"], url="https://t.me/ExploreMoviez"),
         InlineKeyboardButton(
-            strings["btn_source"], url="https://github.com/TeamDaisyX/"
+            strings["btn_source"], url="http://www.google.com/"
         ),
     )
     buttons.add(
-        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/DaisyXUpdates"),
+        InlineKeyboardButton(strings["btn_channel"], url="https://t.me/Mrvasuz"),
         InlineKeyboardButton(
-            "👥 Support Grup", url="https://t.me/DaisySupport_Official"
+            "My Crush👩‍❤️‍💋‍👨", url="https://t.me/Mrvasuz"
         ),
     )
     buttons.add(
         InlineKeyboardButton(
-            "👸🏼 Add DaisyX to your group",
-            url=f"https://telegram.me/daisyxbot?startgroup=true",
+            "💋Add Meh to your group",
+            url=f"https://telegram.me/Lieobot?startgroup=true",
         )
     )
     # Handle error when user click the button 2 or more times simultaneously
