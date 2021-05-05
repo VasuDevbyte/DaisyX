@@ -56,8 +56,7 @@ async def start_group_cmd(message, strings):
 
 @register(cmds="start", no_args=True, only_pm=True)
 async def start_cmd(message):
-    await message.reply_sticker(random.choice(STICKERS))
-    await get_start_func(message)
+    
 
 
 @get_strings_dec("pm_menu")
