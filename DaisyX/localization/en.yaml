@@ -189,9 +189,9 @@ STRINGS:
     emoji_not_allowed: "I'm sorry, but admin roles can't have emojis 😞"
 
   pm_menu:
-    start_hi_group: 'Hey there! My name is PreraNa™🍁🍭'
-    start_hi: "HOLA HUMANS, IAM PreraNa™🍁🍭 A Sweet Ladie To Manage Your Groups In a Romantic Way!🥰 • 🍁...Love all, Trust a few, Do wrong to None. 🖤 Looking For...👀 [Vikram Aditya](https://telegra.ph/file/3e81f702b7da2dcd447e9.jpg) 🥰
-    btn_source: "Doubts?"
+    start_hi_group: 'Hey there! My name is PreraNa™ 🍁'
+    start_hi: "HOLA HUMANS, IAM PreraNa™🍁🍭 A Sweet Ladie To Manage Your Groups In a Romantic Way!🥰 • 🍁...Love all, Trust a few, Do wrong to None. 🖤 Looking For...👀 [Vikram Aditya](https://telegra.ph/file/3e81f702b7da2dcd447e9.jpg) "
+    btn_source: "Doubts"
     btn_help: "❔ Help"
     btn_lang: "Binge Watch🍁"
     btn_channel: "🙋‍♀️ Developed By!"
